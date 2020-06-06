@@ -4,7 +4,8 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `Dinda Tisi Calista`,
+    siteTitle: `dindatc`,
   },
   plugins: [
     {
@@ -12,6 +13,10 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
+        {
+            title: `Home`,
+            slug: `/`,
+          },
           {
             title: `Blog`,
             slug: `/blog`,
@@ -23,12 +28,12 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Github`,
+            url: `https://github.com/dindatisi`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/in/dindatc/`,
           },
         ],
       },
@@ -66,5 +71,7 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    "gatsby-remark-embed-youtube",
+    "gatsby-remark-responsive-iframe"
   ],
 }
