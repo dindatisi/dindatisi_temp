@@ -8,12 +8,12 @@
   "starter-name": "gatsby-starter-minimal-blog",
   "scripts": {
     "develop": "gatsby develop",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^2.3.6",
