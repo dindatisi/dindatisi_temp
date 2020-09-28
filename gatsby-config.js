@@ -50,7 +50,7 @@ module.exports = {
       options: {
         name: `Dinda T. Calista`,
         short_name: `dindatc`,
-        description: `My personal site & blog`,
+        description: `Dinda Calista personal site & blog. Writing about data analytics and other stuff.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
@@ -66,7 +66,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
-    "gatsby-remark-embed-youtube",
-    "gatsby-remark-responsive-iframe"
+
   ],
 }
