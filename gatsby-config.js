@@ -13,7 +13,7 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-        {
+          {
             title: `Home`,
             slug: `/`,
           },
